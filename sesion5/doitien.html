@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+  <link rel="stylesheet" href="doitien.css">
+</head>
+<body>
+<div id="content" class="container">
+  <div id="content1" class="container1">
+    <div id="acmount">
+      <h4 id="title1">Amount</h4>
+      <input id="import" type="number" name="acmount1">
+    </div>
+    <div id="from">
+      <h4 id="title2">From Currency</h4>
+      <select id="vietnam" name="vnd" >
+        <option value="dong">VietNam</option>
+      </select>
+    </div>
+  </div>
+  <div id="content2" class="container2">
+    <div id="to">
+      <h4 id="title3">To Currency</h4>
+      <select id="usd" name="dola">
+        <option value="do">USD</option>
+      </select>
+    </div>
+    <div id="convert">
+      <label><input  id="click" type="submit" name="convert" value="Convert" onclick="result()"></label>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<label >result</label>
+<input id="bang" type="text">
+
+<script src="tinhtien.js"></script>
+</body>
+</html>
